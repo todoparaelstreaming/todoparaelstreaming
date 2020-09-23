@@ -23,19 +23,26 @@
     height: 100%;
 }
 
+.brand {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.brand:hover {
+    background-color: #044bd9;
+}
+
 .brand p {
     font-weight: bold;
     font-size: 3em;
     color: white;
 }
 
-.brand p:hover {
-    color:#0554f2;
-}
-
 .brand a {
     text-decoration: none;
-    height: 100%;
+    padding: 0 20px 0 20px;
     margin: 0;
 }
 
