@@ -30,7 +30,7 @@
 }
 
 .brand p:hover {
-    color: #f16522;
+    color:#0554f2;
 }
 
 .brand a {
@@ -57,7 +57,7 @@
 }
 
 .navbar-options p {
-    font-size: 1.3em;
+    font-size: 1.6em;
     font-weight: bold;
     padding: 0 30px 0 30px;
     color: white;
