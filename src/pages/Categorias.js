@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Link } from 'react-router-dom'
 
 function Categorias() {
     return(
-        <h3>
+        <h4>
             este es el Categorias
-        </h3>
+        </h4>
     )
 }
 
-export default Categorias
+export default Categorias;

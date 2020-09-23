@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Link } from 'react-router-dom'
 
 function Blogs() {
     return(
-        <h3>
+        <h1>
             este es el Blogs
-        </h3>
+        </h1>
     )
 }
 
-export default Blogs
+export default Blogs;

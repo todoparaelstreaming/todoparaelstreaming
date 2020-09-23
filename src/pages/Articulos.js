@@ -1,14 +1,12 @@
 import React from 'react'
 import { BrowserRouter as Router, Link } from 'react-router-dom'
 
-function Categorias() {
+function Articulos() {
     return(
-        <Router>
-            <h3>
-                este es el Categorias
-            </h3>
-        </Router>
+        <h2>
+            este es el Articulos
+        </h2>
     )
 }
 
-export default Categorias
+export default Articulos;
