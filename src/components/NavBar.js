@@ -17,7 +17,7 @@ function NavBar() {
                             <Link to="/articulos">
                                 <p>Articulos</p>
                             </Link>
-                            <Link to="/blogs">
+                            <Link to="/blogs-y-tutoriales">
                                 <p>Blog</p>
                             </Link>
                             <Link to="/categorias">
