@@ -1,12 +1,13 @@
 import React from 'react'
-import { BrowserRouter as Router, Link } from 'react-router-dom'
 
-function Home() {
-    return(
-        <h3>
-            sin nada home
-        </h3>
-    )
+class Home extends React.Component {
+    render() {
+        return(
+            <h3>
+                hola klk
+            </h3>
+        )
+    }
 }
 
 export default Home;
