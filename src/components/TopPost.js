@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 function TopPost() {
     return(
         <React.Fragment>
+            <h2>Mejores Post y tutoriales de Streaming</h2>
             <div className="post-row">
                 {
                     post.map((post) => (
@@ -16,7 +17,7 @@ function TopPost() {
                                     {post.title}                                
                                 </h3>
                             </Link>
-                            <p>
+                            <p className="post-content">
                                 {post.content}
                             </p>
                             <div className="tags">
@@ -28,7 +29,7 @@ function TopPost() {
                             </div>
                         </div>
                     ))
-                }
+                };
             </div>        
         </React.Fragment>
     )
