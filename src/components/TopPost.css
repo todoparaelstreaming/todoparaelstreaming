@@ -29,12 +29,13 @@ h2 {
 
 .post_container h3 {
     padding: 10px;
-    color: red;
+    color: black;
     margin: 0;
 }
 
 .post_container h3:hover {
     background-color: black;
+    color: #f16522;
 }
 
 .post_container a {
