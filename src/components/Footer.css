@@ -1,8 +1,10 @@
 .footer-full {
+    bottom: 10;
     width: 100%;
     margin: 0;
     background-color: black;
     margin-top: 20px;
+    position: absolute;
 }
 
 .footer-container {
