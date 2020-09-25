@@ -20,9 +20,11 @@ function TopPost() {
                                 {post.content}
                             </p>
                             <div className="tags">
-                                <small>
-                                    {post.tags}
-                                </small>
+                                <p>
+                                    <small>
+                                        {post.tags}
+                                    </small>
+                                </p>            
                             </div>
                         </div>
                     ))
