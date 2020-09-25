@@ -1,0 +1,22 @@
+.footer-full {
+    width: 100%;
+    margin: 0;
+    background-color: black;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.colum {
+    flex: 2;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}

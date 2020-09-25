@@ -8,6 +8,7 @@ import Articulos from './pages/Articulos'
 import Home from './pages/Home'
 import Categorias from './pages/Categorias'
 import Blogs from './pages/Blogs'
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
             <Route path="/categorias" component={Categorias} />
             <Route path="/articulos-para-streaming" component={Articulos} />
             <Route path="/blogs-y-tutoriales" component={Blogs} />
-        </div>  
+        </div>
+      <Footer /> 
     </Router>    
   );
 }
