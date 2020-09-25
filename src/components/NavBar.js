@@ -7,6 +7,11 @@ function NavBar() {
         <div className="nav_element">
             <div className="nav-container">
                 <nav className="navbar-selector">
+                    <h1> 
+                        <Link to="/">
+                            Todo para streaming
+                        </Link>
+                    </h1>
                     <div className="brand">
                         <Link to="/">
                             <p className="brand-title">Home</p>
