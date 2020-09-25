@@ -1,0 +1,35 @@
+.post-row {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    justify-content: space-around;
+}
+
+.post_container {
+    display: flex;
+    flex-direction: column;
+    max-width: 33%;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.post_container img {
+    max-width: 100%;
+}
+
+.post_container h3 {
+    color: red;
+    margin: 0;
+}
+
+.post_container a {
+    text-decoration: none;
+}
+
+.post_container p {
+    font-size: 16px;
+    margin: 0;
+}

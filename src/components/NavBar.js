@@ -13,8 +13,8 @@ function NavBar() {
                         </Link>
                     </div>
                     <div className="navbar-options">
-                        <Link to="/articulos">
-                            <p>Articulos</p>
+                        <Link to="/articulos-para-streaming">
+                            <p>Productos</p>
                         </Link>
                         <Link to="/blogs-y-tutoriales">
                             <p>Blog</p>

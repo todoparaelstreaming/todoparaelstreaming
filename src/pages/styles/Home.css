@@ -1,0 +1,18 @@
+.home {
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.home h1 {
+    margin: 0;
+    margin-top: 7vh;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.home p {
+    font-size: 22px;
+    font-weight: 400;
+}

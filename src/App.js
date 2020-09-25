@@ -16,7 +16,7 @@ function App() {
         <div className="app-container">
             <Route exact path="/" component={Home} />
             <Route path="/categorias" component={Categorias} />
-            <Route path="/articulos" component={Articulos} />
+            <Route path="/articulos-para-streaming" component={Articulos} />
             <Route path="/blogs-y-tutoriales" component={Blogs} />
         </div>  
     </Router>    
