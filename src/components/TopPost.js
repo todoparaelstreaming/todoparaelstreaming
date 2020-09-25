@@ -11,7 +11,7 @@ function TopPost() {
                     post.map((post) => (
                         <div className="post_container" key={post.id} >
                             <img src={post.img} alt={post.tags} />
-                            <Link to={`blogs-y-tutoriales/${post.id}`}>
+                            <Link to={`blogs-y-tutoriales/${post.urlName}`}>
                                 <h3>
                                     {post.title}                                
                                 </h3>
@@ -19,6 +19,11 @@ function TopPost() {
                             <p>
                                 {post.content}
                             </p>
+                            <div className="tags">
+                                <small>
+                                    {post.tags}
+                                </small>
+                            </div>
                         </div>
                     ))
                 }
