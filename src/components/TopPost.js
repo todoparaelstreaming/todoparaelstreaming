@@ -1,6 +1,6 @@
 import React from 'react'
 import post from '../utils/topPost.json'
-import './TopPost.css'
+import './css/TopPost.css'
 import { Link } from 'react-router-dom'
 
 function TopPost() {
