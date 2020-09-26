@@ -34,7 +34,7 @@ function Footer() {
                                 </a>
                             </li>
                             <li>
-                                <Link to="twitter">
+                                <Link to="twitter.com">
                                     twitter
                                 </Link>
                             </li>
