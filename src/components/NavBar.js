@@ -7,7 +7,7 @@ function NavBar() {
         <div className="nav_element">
             <div className="nav-container">
                 <nav className="navbar-selector">
-                    <h1> 
+                    <h1 className="phoneTitle"> 
                         <Link to="/">
                             Todo para streaming
                         </Link>
