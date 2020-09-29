@@ -17,6 +17,18 @@
     font-weight: 400;
 }
 
+.home h2 {
+    font-size: 27px;
+}
+
+.article-content {
+    text-align: left;
+}
+
+.article-content ul li {
+    font-size: 2rem;
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (max-width: 1200px) {
     

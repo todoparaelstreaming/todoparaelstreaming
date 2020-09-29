@@ -23,7 +23,7 @@ function TopPost() {
                             <div className="tags">
                                 <p>
                                     <small>
-                                        {post.tags}
+                                        {post.tags.map(tags => (`🏷️ ${tags}`))}
                                     </small>
                                 </p>            
                             </div>
