@@ -22,7 +22,7 @@ class Home extends React.Component {
                         <p className="article-content">
                             para hacerlo primero debemos es saber el tipo de contenido que quermos hacer y la forma en la que lo queremos que las personas lo consuman. aqui veras una breve descripcion y escoje que te ayudara a escojer un tipo
                         </p>
-                        <ul className="streaming-tipe">
+                        <ul className="streaming-type">
                             <li>
                                 <p>
                                     <b>Streaming live</b>: Se transmite en tiempo real o con breves retrasos, el contenido es mas dinamico pero las plataformas no nos ofrecen la posibilidad de grabarlo lo cual es una ventaja si deseas que el contenido no este disponible luego.

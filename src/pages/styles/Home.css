@@ -29,6 +29,10 @@
     font-size: 2rem;
 }
 
+.streaming-type p {
+    text-align: left;
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (max-width: 1200px) {
     

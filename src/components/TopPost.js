@@ -2,11 +2,12 @@ import React from 'react'
 import post from '../utils/topPost.json'
 import './css/TopPost.css'
 import { Link } from 'react-router-dom'
+import Emoji from './emojiSymbol'
 
 function TopPost() {
     return(
         <React.Fragment>
-            <h2>Mejores Post y tutoriales de Streaming</h2>
+            <h2><Emoji symbol="📈" label="chart-increasing" />Mejores 3 Post y tutoriales de Streaming<Emoji symbol="📈" label="chart-increasing" /></h2>
             <div className="post-row">
                 {
                     post.map((post) => (
@@ -29,7 +30,7 @@ function TopPost() {
                             </div>
                         </div>
                     ))
-                };
+                }
             </div>        
         </React.Fragment>
     )
