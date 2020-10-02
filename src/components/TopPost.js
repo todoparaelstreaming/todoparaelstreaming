@@ -7,7 +7,7 @@ import Emoji from './emojiSymbol'
 function TopPost() {
     return(
         <React.Fragment>
-            <h2><Emoji symbol="📈" label="chart-increasing" />Mejores 3 Post y tutoriales de Streaming<Emoji symbol="📈" label="chart-increasing" /></h2>
+            <h2><Emoji symbol="📈" label="chart-increasing" />Top 3 Post y tutoriales de Streaming<Emoji symbol="📈" label="chart-increasing" /></h2>
             <div className="post-row">
                 {
                     post.map((post) => (

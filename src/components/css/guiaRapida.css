@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+    color: #2b2e34;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: red;
+    color: red;
+}
