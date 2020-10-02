@@ -26,10 +26,12 @@ class Home extends React.Component {
                         "mas texto solo por diversion"
                     ]}
                     imgSrc="https://images-na.ssl-images-amazon.com/images/I/51zHw-6vMJL._AC_SL1171_.jpg"
+                    rebaja={true}
+                    priceTag="150"
                 />
                 <div className="guiaDeStreamin">
                     <h2>
-                        <Emoji symbol="🟢" label="green-circle"/> Guia rapida para hacer streaming profecional <Emoji symbol="✔️" label="check"/> 2020 <Emoji symbol="✔️" label="check"/>
+                        <Emoji symbol="🟢" label="green-circle"/> Guia rapida para hacer streaming profesional <Emoji symbol="✔️" label="check"/> 2020 <Emoji symbol="✔️" label="check"/>
                     </h2>
                     <article>
                         <GuiaRapida />

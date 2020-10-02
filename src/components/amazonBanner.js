@@ -5,6 +5,13 @@ import Emoji from './emojiSymbol'
 const amazonBanner = props => {
     return(
         <div className="amazon-container">
+            {
+                props.rebaja === true && <div className="amazon-container-head">
+                    <div className="head-box">
+                        <b>Rebaja</b>
+                    </div>
+                </div>
+            }
             <div className="description-container">
                 <div className="img-container">
                     <a href={props.link} target="BLANK">
@@ -27,11 +34,17 @@ const amazonBanner = props => {
                 </div> 
             </div>
             <div className="buy-container">
-                <a href={props.link} target="BLANK">
-                    <button>
-                        <Emoji symbol="🛒" label="Shopping-car" /> comprar en amazon
-                    </button>
-                </a>
+                <div className="buy-container-footer">
+                    <p>
+                        <Emoji symbol="🤑" label="money-face" />
+                        <b id="priceTag">{props.priceTag} </b><b>USD</b>
+                    </p>
+                    <a href={props.link} target="BLANK">
+                        <button>
+                            <Emoji symbol="🛒" label="Shopping-car" /> comprar en amazon
+                        </button>
+                    </a>
+                </div>
             </div>
         </div>
     )
