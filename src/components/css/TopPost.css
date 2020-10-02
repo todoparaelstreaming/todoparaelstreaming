@@ -35,7 +35,7 @@ h2 {
 
 .post_container h3:hover {
     background-color: black;
-    color: #f16522;
+    color: orange;
 }
 
 .post_container a {
@@ -65,6 +65,7 @@ h2 {
 
 .tags p {
     font-size: 17px;
+    font-weight: 600;
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

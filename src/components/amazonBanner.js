@@ -26,7 +26,7 @@ const amazonBanner = props => {
                     </h4>
                     <ul>
                         {props.description.map(properties => (
-                            <li>
+                            <li key={properties} >
                                 {properties}
                             </li>
                         ))}
@@ -39,10 +39,8 @@ const amazonBanner = props => {
                         <Emoji symbol="🤑" label="money-face" />
                         <b id="priceTag">{props.priceTag} </b><b>USD</b>
                     </p>
-                    <a href={props.link} target="BLANK">
-                        <button>
-                            <Emoji symbol="🛒" label="Shopping-car" /> comprar en amazon
-                        </button>
+                    <a href={props.link} target="BLANK" title="buy on amazon" className="amazon-button">
+                        <Emoji symbol="🛒" label="Shopping-car" /> Comprar en Amazon
                     </a>
                 </div>
             </div>

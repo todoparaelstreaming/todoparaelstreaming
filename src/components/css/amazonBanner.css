@@ -40,7 +40,7 @@
 .img-container {
     height: 100%;
     flex-wrap: wrap;
-    width: 20%;
+    width: 25%;
     max-width: 50%;
     margin: 0 20px 0 0;
 }
@@ -51,7 +51,7 @@
 }
 
 .description-of-product {
-    width: 80%;
+    width: 75%;
     max-width: 50%;
     margin: 0;
     padding: 0 0 0 40px;
@@ -63,10 +63,23 @@
 }
 
 .description-of-product h4 {
+    margin: 0;
+}
+
+.description-of-product a {
+    text-decoration: none;
+}
+
+.description-of-product a {
     font-size: 23px;
     text-align: left;
     width: 100%;
     margin: 10px 0 5px 0;
+    color: #03D6F2;
+}
+
+.description-of-product a:hover {
+    color: #039EF2;
 }
 
 .description-of-product ul {
@@ -97,7 +110,106 @@
 }
 
 .buy-container-footer p {
-    padding: 0 20px 5px 0;
+    padding: 0 25px 5px 0;
     margin: 0;
 }
 
+.buy-container-footer .amazon-button {
+    border-color: #9c7e31 #90742d #786025 !important;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.4) inset;
+    background: #f0c14b;
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b) repeat scroll 0 0 rgba(0,0,0,0);
+    color: #111 !important;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 20px 10px 0;
+    padding: 7px 12px 6px 12px;
+    border: 1px solid transparent !important;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (max-width: 425px) {
+    .amazon-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+    
+    .description-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .img-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .img-container a {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-container a img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .description-of-product {
+        width: 100%;
+    }
+    
+    .description-of-product h4 {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .description-of-product h4 a {
+        width: 100%;
+    }
+
+    .description-of-product ul {
+        display: none;
+    }
+
+    .buy-container {
+        justify-content: space-around;
+    }
+
+    .buy-container-footer {
+        text-align: center;
+    }
+}
+
+@media (max-width: 360px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

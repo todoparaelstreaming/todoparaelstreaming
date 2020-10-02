@@ -5,7 +5,7 @@ import './css/guiaRapida.css'
 
 function GuiaRapida() {
     return(
-        <React.Fragment>
+        <div className="guia-rapida">
             <h3>
                 <Emoji symbol="🎥" label="movie-camera" />
                     ¿como escojer una plataforma para hacer streaming?
@@ -99,7 +99,7 @@ function GuiaRapida() {
                 Para entender todo al maximo y hacer streaming de una manera profesional revisa la <Link to="/guia-completa-para-hacer-streaming-profecional-en-twitch">Guia completa para hacer un streaming profecional</Link>. tambien puedes revisar nuestros <Link to="/blogs-y-tutoriales">tutoriales para hacer streaming</Link>
                 <Emoji symbol="👏" label="claps" /><Emoji symbol="👏" label="claps" /><Emoji symbol="👏" label="claps" />
             </p>
-        </React.Fragment>
+        </div>
     )
 }
 

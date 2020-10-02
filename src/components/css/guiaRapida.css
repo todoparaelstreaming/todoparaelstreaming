@@ -1,10 +1,10 @@
-a {
+.guia-rapida a {
     text-decoration: none;
     color: #2b2e34;
     font-weight: 700;
 }
 
-a:hover {
+.guia-rapida a:hover {
     text-decoration: red;
-    color: red;
+    color:  #03D6F2;
 }

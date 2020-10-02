@@ -18,12 +18,13 @@ class Home extends React.Component {
                 <AmazonBanner 
                     link="https://amzn.to/36mJHao"
                     alt="hola esto es la imagen"
-                    productTitle="capturadora HDMI"
+                    productTitle="Elgato Game Capture HD, Xbox y PlayStation Grabadora de juegos de alta definición para Mac y PC"
                     description={[
-                        "hola 1",
-                        "hola segundo portatil",
-                        "solo agragando texto",
-                        "mas texto solo por diversion"
+                        "1080p 60fps Capture",
+                        "Vision instantanea del Juego \"Instant Game View\" ",
+                        "Captura ilimitada",
+                        "Max Bitraje 40Mbps",
+                        "Interface: USB 3.0"
                     ]}
                     imgSrc="https://images-na.ssl-images-amazon.com/images/I/51zHw-6vMJL._AC_SL1171_.jpg"
                     rebaja={true}
