@@ -24,6 +24,11 @@ function Footer() {
                                     about us
                                 </Link>
                             </li>
+                            <li>
+                                <Link to="/contact-us">
+                                    Contactanos
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                     <div className="colum">

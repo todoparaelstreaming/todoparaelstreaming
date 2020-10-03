@@ -25,7 +25,7 @@ function NavBar() {
                             <p>Blog</p>
                         </Link>
                         <Link to="/guia-completa-para-hacer-streaming-gamer-2020">
-                            <p>Categorias</p>
+                            <p>Guia de Streaming</p>
                         </Link>
                     </div>
                 </nav>
