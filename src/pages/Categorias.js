@@ -11,21 +11,6 @@ function Categorias() {
             <h4>
                 este es el Categorias
             </h4>
-            <p>
-                hola k hace
-            </p>
-            <p>
-                hola k hace
-            </p>
-            <p>
-                hola k hace
-            </p>
-            <p>
-                hola k hace
-            </p>
-            <p>
-                hola k hace
-            </p>
         </React.Fragment>
     )
 }

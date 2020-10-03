@@ -29,19 +29,19 @@ function Footer() {
                     <div className="colum">
                         <ul>
                             <li>
-                                <a href="www.facebook.com" target="_blank">
+                                <a href="https://www.facebook.com" target="BLANK">
                                     facebook
                                 </a>
                             </li>
                             <li>
-                                <Link to="twitter.com">
+                                <a href="https://twitter.com" target="BLANK">
                                     twitter
-                                </Link>
+                                </a>
                             </li>
                             <li>
-                                <Link to="instagram.com">
+                                <a href="https://instagram.com" target="BLANK">
                                     instagram
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                     </div>

@@ -24,7 +24,7 @@ function NavBar() {
                         <Link to="/blogs-y-tutoriales">
                             <p>Blog</p>
                         </Link>
-                        <Link to="/categorias">
+                        <Link to="/guia-completa-para-hacer-streaming-gamer-2020">
                             <p>Categorias</p>
                         </Link>
                     </div>
