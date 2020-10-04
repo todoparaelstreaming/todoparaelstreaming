@@ -1,0 +1,91 @@
+.capturadoras-marcas-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.capturadoras-marcas {
+    width: 25%;
+    min-width: 25%;
+    height: 20vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.capturadoras-marcas .marca-name {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px white;
+}
+
+.capturadoras-marcas .marca-name:hover {
+    background-color: rgba(100, 200, 200, 0.5);
+}
+
+.capturadoras-marcas p {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.mb1 {
+    background: red;
+}
+
+.mb2 {
+    background: green;
+}
+
+.mb3 {
+    background: blue;
+}
+
+.mb4 {
+    background: orange;
+}
+
+.mb5 {
+    background: black;
+}
+
+.mb6 {
+    background: brown;
+}
+
+.mb7 {
+    background: seagreen;
+}
+
+.mb8 {
+    background: skyblue;
+}
+
+@media (max-width: 425px) {
+    .capturadoras-marcas-container {
+        flex-direction: column;
+    }
+
+    .capturadoras-marcas {
+        width: 100%;
+        height: 320px;
+        margin: 0 auto;
+    }
+}

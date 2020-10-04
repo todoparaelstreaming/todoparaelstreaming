@@ -6,6 +6,7 @@ import Emoji from '../components/emojiSymbol'
 import GuiaRapida from '../components/articulos/guiaRapida'
 import AmazonBanner from '../components/amazonBanner'
 import HeadTags from '../components/HeadTags'
+import Capturadoras from '../components/articulos/Capturadoras'
 
 class Home extends React.Component {
     render() {
@@ -59,6 +60,7 @@ class Home extends React.Component {
                         rebaja={true}
                         priceTag="149.99"
                     />
+                    <Capturadoras />
                 </div>
             </React.Fragment>
         )
