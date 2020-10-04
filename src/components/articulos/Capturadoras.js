@@ -52,6 +52,9 @@ function Capturadoras() {
                     </div>
                 </div>
             </div>
+            <h3>
+                ¿Como escojer una capturadora para hacer Streaming?
+            </h3>
         </React.Fragment>
     )
 }

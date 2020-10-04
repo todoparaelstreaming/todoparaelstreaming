@@ -9,7 +9,7 @@
 .capturadoras-marcas {
     width: 25%;
     min-width: 25%;
-    height: 20vh;
+    height: 30vh;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -47,35 +47,59 @@
 }
 
 .mb1 {
-    background: red;
+    background-image: url(../../images/elgatowebp.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .mb2 {
-    background: green;
+    background-image: url(../../images/qgeemwbmp.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .mb3 {
-    background: blue;
+    background-image: url(../../images/avermediaFull.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .mb4 {
-    background: orange;
+    background-image: url(../../images/linkstablereducejpg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .mb5 {
-    background: black;
+    background-image: url(../../images/miraboxrecudewbpm.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .mb6 {
-    background: brown;
+    background-image: url(../../images/SeAAnwbmp.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .mb7 {
-    background: seagreen;
+    background-image: url(../../images/pengoReducewbpm.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .mb8 {
-    background: skyblue;
+    background-image: url(../../images/razerwebpReduce.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 @media (max-width: 425px) {
