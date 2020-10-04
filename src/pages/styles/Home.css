@@ -13,7 +13,7 @@
 }
 
 .home p {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -52,13 +52,13 @@
     }
 
     .home p {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (max-width: 425px) {
     .home p {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .home {

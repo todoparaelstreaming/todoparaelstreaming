@@ -3,7 +3,7 @@ import React from 'react'
 import './styles/Home.css'
 import TopPost from '../components/TopPost'
 import Emoji from '../components/emojiSymbol'
-import GuiaRapida from '../components/guiaRapida'
+import GuiaRapida from '../components/articulos/guiaRapida'
 import AmazonBanner from '../components/amazonBanner'
 import HeadTags from '../components/HeadTags'
 
@@ -23,7 +23,7 @@ class Home extends React.Component {
                     <TopPost />
                     <AmazonBanner 
                         link="https://amzn.to/36mJHao"
-                        alt="hola esto es la imagen"
+                        alt="la mejor capturadora para streaming gamer en twitch"
                         productTitle="Elgato Game Capture HD, Xbox y PlayStation Grabadora de juegos de alta definición para Mac y PC"
                         description={[
                             "1080p 60fps Capture",

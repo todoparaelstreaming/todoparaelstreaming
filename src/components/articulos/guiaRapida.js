@@ -1,7 +1,7 @@
 import React from 'react'
-import Emoji from './emojiSymbol'
+import Emoji from '../emojiSymbol'
 import { Link } from 'react-router-dom'
-import './css/guiaRapida.css'
+import '../css/guiaRapida.css'
 
 function GuiaRapida() {
     return(
@@ -95,6 +95,9 @@ function GuiaRapida() {
                     </p>
                 </li>
             </ul>
+            <p className="article-content">
+                <Emoji symbol="🤔" label="thinking-face" /><Emoji symbol="🤔" label="thinking-face" /><b>Nota importante</b>, la calidad de sonido maxima que esta disponible en twitch es de 120khz, aunque algunos progamas para hacer streaming nos permite forzar la calidad de audio. No es recomendable hacer esto a menos que la calidad de audio sea lo principal en el contenido que quieres poner online <Emoji symbol="🤓" label="nerd-face" />.
+            </p>
             <p className="article-content">
                 Para entender todo al maximo y hacer streaming de una manera profesional revisa la <Link to="/guia-completa-para-hacer-streaming-profecional-en-twitch">Guia completa para hacer un streaming profecional</Link>. tambien puedes revisar nuestros <Link to="/blogs-y-tutoriales">tutoriales para hacer streaming</Link>
                 <Emoji symbol="👏" label="claps" /><Emoji symbol="👏" label="claps" /><Emoji symbol="👏" label="claps" />
