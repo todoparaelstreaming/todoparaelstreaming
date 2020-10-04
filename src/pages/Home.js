@@ -44,6 +44,21 @@ class Home extends React.Component {
                             <GuiaRapida />
                         </article>
                     </div>
+                    <AmazonBanner 
+                        link="https://amzn.to/34nydRl"
+                        alt="stream deck para streaming multicamara y aplicaciones"
+                        productTitle="Elgato Stream Deck - Live Content Creation Controller with 15 Customizable LCD Keys"
+                        description={[
+                            "15 teclas LCD: Presiona para cambiar la ventana, Lanzar medios, ajustar audio y mucho mas",
+                            "100% cutomizable: Personaliza las teclas con tus propias imagenes o escoje entre las 100 de imagenes precargadas",
+                            "Integracion Directa: Control game capture, OBS, XSplit, TipeeeStream, Twitch, YouTube, Mixer, y Mas",
+                            "Facil de Configurar: Simplemente arrastra y suelta la configuracion en los espacios en la app",
+                            "Control Ilimitado: Guardas carpetas y anida tantas configuraciones como puedas"
+                        ]}
+                        imgSrc="https://images-na.ssl-images-amazon.com/images/I/710R9YpV9nL._AC_SL1500_.jpg"
+                        rebaja={true}
+                        priceTag="149.99"
+                    />
                 </div>
             </React.Fragment>
         )
