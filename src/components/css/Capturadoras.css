@@ -44,6 +44,7 @@
     text-align: center;
     justify-content: space-around;
     color: white;
+    font-weight: 700;
 }
 
 .mb1 {
@@ -53,11 +54,25 @@
     background-repeat: no-repeat;
 }
 
+.mb1 p {
+    color:white;
+    background-color: rgba(10, 10, 10, 0.85);
+    padding: 20px;
+    border-radius: 5px;
+}
+
 .mb2 {
     background-image: url(../../images/qgeemwbmp.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.mb2 p {
+    color:white;
+    background-color: rgba(10, 10, 10, 0.85);
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .mb3 {
@@ -67,11 +82,25 @@
     background-repeat: no-repeat;
 }
 
+.mb3 p {
+    color:white;
+    background-color: rgba(10, 10, 10, 0.85);
+    padding: 20px;
+    border-radius: 5px;
+}
+
 .mb4 {
     background-image: url(../../images/linkstablereducejpg.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.mb4 p {
+    color:white;
+    background-color: rgba(10, 10, 10, 0.85);
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .mb5 {
@@ -81,11 +110,25 @@
     background-repeat: no-repeat;
 }
 
+.mb5 p {
+    color:white;
+    background-color: rgba(10, 10, 10, 0.85);
+    padding: 20px;
+    border-radius: 5px;
+}
+
 .mb6 {
     background-image: url(../../images/SeAAnwbmp.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.mb6 p {
+    color:white;
+    background-color: rgba(10, 10, 10, 0.85);
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .mb7 {
@@ -95,11 +138,40 @@
     background-repeat: no-repeat;
 }
 
+.mb7 p {
+    color:white;
+    background-color: rgba(10, 10, 10, 0.85);
+    padding: 20px;
+    border-radius: 5px;
+}
+
 .mb8 {
     background-image: url(../../images/razerwebpReduce.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.mb8 p {
+    color:white;
+    background-color: rgba(10, 10, 10, 0.85);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.capturadora-p {
+    text-align: left;
+}
+
+.capturadora-p a {
+    text-decoration: none;
+    color: #2b2e34;
+    font-weight: 700;
+}
+
+.capturadora-p a:hover {
+    color: #03D6F2;
+    font-weight: 700;
 }
 
 @media (max-width: 425px) {
