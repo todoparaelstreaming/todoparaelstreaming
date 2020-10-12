@@ -7,7 +7,7 @@ const AmazonBannerRow = props => (
         <div className="amazon-banner-row">
             {
                 props.products.map( products => (
-                    <div className="amazon-banner-card">
+                    <div className="amazon-banner-card" key={products.productLink}>
                         <div className="product-image-container">
                             <a href={products.productLink} target="BLANK">
                                 <img src={products.imgSrc} alt={products.imgAlt} />

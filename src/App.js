@@ -7,7 +7,7 @@ import {
 import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 // importamos las paginas que vamos a renderizar
-import Articulos from './pages/Articulos'
+import Articulos from './pages/Categorias'
 import Home from './pages/Home'
 import GuiaCompleta from './pages/GuiaCompleta'
 import Blogs from './pages/Blogs'

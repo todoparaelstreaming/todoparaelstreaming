@@ -2,6 +2,7 @@ import React from 'react'
 import Emoji from '../components/emojiSymbol'
 import { Link } from 'react-router-dom';
 import Contenido from '../utils/content.json'
+import './styles/Blogs.css'
 
 function Blogs() {
 
@@ -9,35 +10,37 @@ function Blogs() {
         <React.Fragment>
             <div className="blogs-container" >
                 {
-                    Contenido.map(loQueTeDeLaGana => (
-                        <div className="blog-content" key={loQueTeDeLaGana.id}>
+                    Contenido.map(blogsMap => (
+                        <div className="blog-content" key={blogsMap.id}>
                             <div className="blog-description-container">
                                 <div className="blog-image-container">
-                                    <Link to={`/blogs-y-tutoriales${loQueTeDeLaGana.url}`}>
-                                        <img src={loQueTeDeLaGana.img} alt={loQueTeDeLaGana.imgAlt} /> 
+                                    <Link to={`/blogs-y-tutoriales${blogsMap.url}`}>
+                                        <img src={blogsMap.img} alt={blogsMap.imgAlt} /> 
                                     </Link>
                                 </div>
                                 <div className="blog-description">
-                                    <h3>
-                                        {loQueTeDeLaGana.title}
-                                    </h3>
+                                    <Link to={`/blogs-y-tutoriales${blogsMap.url}`} >
+                                        <h3>
+                                            {blogsMap.title}
+                                        </h3>
+                                    </Link>
                                     <p>
-                                        {loQueTeDeLaGana.content}
+                                        {blogsMap.content}
                                     </p>
                                 </div>              
                             </div>      
                             <div className="tags-container">
                                 <p>
                                     {
-                                        loQueTeDeLaGana.tags.map(tag =>(
-                                            <span>
+                                        blogsMap.tags.map(tag =>(
+                                            <span key={tag}>
                                                 <Emoji symbol="🏷️" label="tag-symbol"/>{tag}
                                             </span>
                                         ))
                                     }
                                 </p>
                             </div>
-                        </div> 
+                        </div>
                     ))
                 }
             </div>
