@@ -15,7 +15,7 @@ code {
 }
 
 .app-container {
-  width: 75%;
+  width: 80%;
   max-width: 75%;
   margin: auto;
   height: 100%;
@@ -44,8 +44,9 @@ p {
 /* Medium devices (landscape tablets, 768px and up) */
 @media (max-width: 768px) {
   .app-container {
-    max-width: 75%;
-    width: 75%;
+    max-width: 85%;
+    width: 85%;
+    margin: 0 auto;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */

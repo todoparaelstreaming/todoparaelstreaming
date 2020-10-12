@@ -1,0 +1,33 @@
+.dinamicContentContainer {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dinamicContentContainer p {
+    text-align: left;
+}
+
+.buttonContainer {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonContainer button {
+    margin: 0 10px 0 10px;
+    padding: 10px 15px 10px 15px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.productsToShowContainer {
+    margin: 0 auto;
+    text-align: center;
+    width: 95%;
+}

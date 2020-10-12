@@ -30,9 +30,11 @@ function Categorias() {
                     </button>
                 </div>
             </div>
-            {
-                list === "todos los productos" ? <AmazonBannerRow products={allProducts} /> : <FilteredAmazonRow category={list} />
-            }
+            <div className="productsToShowContainer">
+                {
+                    list === "todos los productos" ? <AmazonBannerRow products={allProducts} /> : <FilteredAmazonRow category={list} />
+                }
+            </div>
         </React.Fragment>
     )
 }
