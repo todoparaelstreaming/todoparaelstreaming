@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import FilteredAmazonRow from '../components/filteredAmazonRow'
 import allProducts from '../utils/allProducts.json'
 import AmazonBannerRow from '../components/amazonBannerRow'
+import './styles/Categorias.css'
 
 function Categorias() {
     const [list, setList] = useState("todos los productos")
