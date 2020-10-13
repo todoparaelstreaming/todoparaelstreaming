@@ -11,6 +11,7 @@ import Articulos from './pages/Categorias'
 import Home from './pages/Home'
 import GuiaCompleta from './pages/GuiaCompleta'
 import Blogs from './pages/Blogs'
+import ComoHacerStr from './components/articulos/ComoHacerStreaming2020'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/guia-completa-para-hacer-streaming-gamer-2020" component={GuiaCompleta} />
             <Route path="/articulos-para-streaming" component={Articulos} />
             <Route path="/blogs-y-tutoriales" component={Blogs} />
+            <Route path="/como-hacer-streaming-2020" component={ComoHacerStr} />
         </div>
       <Footer /> 
     </Router>    
