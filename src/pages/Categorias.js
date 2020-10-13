@@ -5,6 +5,8 @@ import AmazonBannerRow from '../components/amazonBannerRow'
 import './styles/Categorias.css'
 
 function Categorias() {
+    //los tres stados son "todos los productos", "capturadoras" y "gadgets"
+
     const [list, setList] = useState("todos los productos")
 
     return(

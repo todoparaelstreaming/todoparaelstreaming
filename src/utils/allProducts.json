@@ -94,5 +94,13 @@
         "imgAlt": "Elgato Game Capture HD60 Pro - Stream and record in 1080p60, superior low latency technology, H.264 hardware encoding, PCIe, black",
         "productTitle": "Elgato Game Capture HD60 Pro - Stream and record in 1080p60, superior low latency technology, H.264 hardware encoding, PCIe, black",
         "priceTags": "178.92"
+    },
+    {
+        "category": "gadgets",
+        "productLink": "https://amzn.to/34nydRl",
+        "imgSrc": "https://images-na.ssl-images-amazon.com/images/I/710R9YpV9nL._AC_SL1500_.jpg",
+        "imgAlt": "stream deck para streaming multicamara y aplicaciones",
+        "productTitle": "Elgato Stream Deck - Live Content Creation Controller with 15 Customizable LCD Keys",
+        "priceTags": "149.99"
     }
 ]
