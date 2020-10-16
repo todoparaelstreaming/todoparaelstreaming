@@ -82,7 +82,9 @@
     vertical-align: middle;
 }
 
-
+.phone-nav-element {
+    display: none;
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (max-width: 1200px) {
@@ -96,8 +98,20 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (max-width: 769px) {
+    .nav_element {
+        height: auto;
+        overflow: auto;
+    }
+
     .brand {
         display: none;
+    }
+    
+    .navbar-selector {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
     }
     
     .navbar-options {
@@ -107,19 +121,48 @@
     .phoneTitle {
         display: flex;
         width: 100%;
-        justify-content: space-around;
         font-size: 3rem;
     }
     
     .phoneTitle a {
         text-decoration: none;
-        color: white
+        color: white;
+        margin: 0 auto;
+    }
+
+    .isOpen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .isOpen a p {
+        font-size: 30px;
+    }
+
+    .phone-nav-element {
+        display: flex;
+        font-size: 35px;
+        margin: 20px 0 20px 0;
     }
 }
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 601px) {
+    .nav_element {
+        height: auto;
+        overflow: auto;
+    }
+
     .brand {
         display: none;
+    }
+
+    .navbar-selector {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
     }
     
     .navbar-options {
@@ -132,16 +175,46 @@
         justify-content: space-around;
         font-size: 1.8rem ;
     }
-    
+
     .phoneTitle a {
         text-decoration: none;
-        color: white
+        color: white;
+        margin: 0 auto;
+    }
+
+    .isOpen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .isOpen a p {
+        font-size: 30px;
+    }
+
+    .phone-nav-element {
+        display: flex;
+        font-size: 35px;
+        margin: 20px 0 20px 0;
     }
 }
 
 @media (max-width: 427px) {
+    .nav_element {
+        height: auto;
+        overflow: auto;
+    }
+    
     .brand {
         display: none;
+    }
+    
+    .navbar-selector {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
     }
 
     .navbar-options {
@@ -157,13 +230,48 @@
 
     .phoneTitle a {
         text-decoration: none;
+        color: white;
+        margin: 0 auto;
+    }
+
+    .isOpen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .isOpen a p {
+        font-size: 20px;
+    }
+
+    .phone-nav-element {
+        display: flex;
+        font-size: 35px;
+        margin: 20px 0 20px 0;
+    }
+
+    .phoneTitle a {
+        text-decoration: none;
         color: white
     }
 }
 
 @media (max-width: 360px) {
+    .nav_element {
+        height: auto;
+        overflow: auto;
+    }
+
     .brand {
         display: none;
+    }
+
+    .navbar-selector {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
     }
 
     .navbar-options {
@@ -179,13 +287,43 @@
 
     .phoneTitle a {
         text-decoration: none;
-        color: white
+        color: white;
+        margin: 0 auto;
+    }
+
+    .isOpen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .isOpen a p {
+        font-size: 30px;
+    }
+
+    .phone-nav-element {
+        display: flex;
+        font-size: 35px;
+        margin: 20px 0 20px 0;
     }
 }
 
 @media (max-width: 320px) {
+    .nav_element {
+        height: auto;
+        overflow: auto;
+    }
+
     .brand {
         display: none;
+    }
+
+    .navbar-selector {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
     }
 
     .navbar-options {
@@ -201,6 +339,24 @@
 
     .phoneTitle a {
         text-decoration: none;
-        color: white
+        color: white;
+        margin: 0 auto;
+    }
+
+    .isOpen {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .isOpen a p {
+        font-size: 30px;
+    }
+
+    .phone-nav-element {
+        display: flex;
+        font-size: 35px;
+        margin: 20px 0 20px 0;
     }
 }
