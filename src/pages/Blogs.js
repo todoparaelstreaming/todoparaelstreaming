@@ -19,7 +19,7 @@ function Blogs() {
                                     </Link>
                                 </div>
                                 <div className="blog-description">
-                                    <Link to={`/blogs-y-tutoriales${blogsMap.url}`} >
+                                    <Link to={blogsMap.url} >
                                         <h3>
                                             {blogsMap.title}
                                         </h3>
@@ -34,7 +34,7 @@ function Blogs() {
                                     {
                                         blogsMap.tags.map(tag =>(
                                             <span key={tag}>
-                                                <Emoji symbol="🏷️" label="tag-symbol"/>{tag}
+                                                <Emoji symbol="🏷️" label="tag-symbol"/>{`${tag} `}
                                             </span>
                                         ))
                                     }

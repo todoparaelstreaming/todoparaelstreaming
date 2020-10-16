@@ -5,7 +5,7 @@ import '../css/guiaRapida.css'
 
 function GuiaRapida() {
     return(
-        <div className="guia-rapida">
+        <div className="guia-rapida" id="guia-rapida">
             <h3>
                 <Emoji symbol="🎥" label="movie-camera" />
                     ¿como escojer una plataforma para hacer streaming?

@@ -1,0 +1,40 @@
+.articleContainer {
+    display: flex;
+    max-width: 95%;
+    width: 95%;
+    margin: 0 auto 20px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.articleContainer article {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.articleContainer article h2 {
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+
+.articleContainer article img {
+    max-width: 70%;
+    margin: 0 auto 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 320) {
+    .articleContainer article img {
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 425) {
+    .articleContainer article img {
+        max-width: 90%;
+    }
+}

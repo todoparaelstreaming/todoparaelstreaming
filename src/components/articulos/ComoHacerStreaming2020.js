@@ -24,7 +24,7 @@ import paso4webp from '../../images/paso4webp.webp'
 
 function ComHacerStreaming2020() {
     return(
-        <React.Fragment>
+        <div className="articleContainer">
             <article>
                 <h2>
                     <Emoji symbol="🤯" label="Exploding-Head"/>
@@ -66,7 +66,7 @@ function ComHacerStreaming2020() {
                     <Emoji symbol="🤓" label="Nerd-Face" /> Listo ya tenemos nuestro <span><b>OBS configurado para hacer streaming en Twich</b></span> o  cualquier otra plataforma de nuestra preferencia <Emoji symbol="🤓" label="Nerd-Face"/>
                 </p>
             </article>
-        </React.Fragment>
+        </div>
     )
 }
 
