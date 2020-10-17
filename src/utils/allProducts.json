@@ -102,5 +102,13 @@
         "imgAlt": "stream deck para streaming multicamara y aplicaciones",
         "productTitle": "Elgato Stream Deck - Live Content Creation Controller with 15 Customizable LCD Keys",
         "priceTags": "149.99"
+    },
+    {
+        "category": "gadgets",
+        "productLink": "https://amzn.to/3dzCS6V",
+        "imgSrc": "https://images-na.ssl-images-amazon.com/images/I/41KByDXEABL._AC_.jpg",
+        "imgAlt": "Flydigi Apex Wireless Controller, RGB Lighting Gamepad. Color del producto: Color blanco. Soporte para Android, tableta, TV Box, PC, Gamepad de vapor, no compatible con iOS 13.4 y superior.",
+        "productTitle": "Flydigi Apex Wireless Controller, RGB Lighting Gamepad",
+        "priceTags": "58.99"
     }
 ]

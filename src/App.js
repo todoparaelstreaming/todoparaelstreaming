@@ -12,6 +12,7 @@ import Home from './pages/Home'
 import GuiaCompleta from './pages/GuiaCompleta'
 import Blogs from './pages/Blogs'
 import ComoHacerStr from './components/articulos/ComoHacerStreaming2020'
+import ComoHSEnAndroid from './components/articulos/ComoHSEnAndroid'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/articulos-para-streaming" component={Articulos} />
             <Route path="/blogs-y-tutoriales" component={Blogs} />
             <Route path="/como-hacer-streaming-2020" component={ComoHacerStr} />
+            <Route path="/como-hacer-streaming-con-streamlab-en-mobile" component={ComoHSEnAndroid} />
         </div>
       <Footer /> 
     </Router>    

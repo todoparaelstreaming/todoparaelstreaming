@@ -1,0 +1,43 @@
+.articleContainer-and{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.articleContainer-and article {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.articleContainer-and article p {
+    text-align: left;
+}
+
+picture img {
+    display: flex;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+@media (max-width: 425px) {
+    .articleContainer {
+        width: 95%;
+        margin: 0 auto;
+        padding: 0%;
+    }
+
+    picture {
+        width: 100%;
+        margin: 0 auto; 
+        height: 100%;   
+    }
+
+    picture img {
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+}

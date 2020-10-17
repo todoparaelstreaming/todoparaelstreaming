@@ -27,7 +27,7 @@ function Blogs() {
                                     <p>
                                         {blogsMap.content}
                                     </p>
-                                </div>              
+                                </div>
                             </div>      
                             <div className="tags-container">
                                 <p>
